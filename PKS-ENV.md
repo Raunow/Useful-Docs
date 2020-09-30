@@ -66,10 +66,7 @@ Rather than using the public Dockerhub we use the more secure and locally hosted
 In order to use Harbor we need to change how we tag containers.
 The tag is structured so that Docker can find where to push the container and allow Harbor to host it in the right repository and project. 
 
-Example: `FQDN/Project/Repository:Version`
-Current:  `Harbor.rssoftware.se/arrigo/arrigo-api-test:1.0.XX`
-
-When pushing the container, make sure that the Harbor package registry is registered in docker as described in [ArrigoCI.md][arrigo-ci] 
+Example: `FQDN/Project/Repository:Version` 
 
 
 ### [Docker][docker]
@@ -112,7 +109,6 @@ The build consists of 9 steps:
 [teamcity]: <https://www.jetbrains.com/teamcity/>
 [k8s-docs]: <https://docs.pivotal.io/pks/1-5/create-cluster.html>
 [k8s-img]: <K8s-Capture.png>
-[arrigo-ci]: <ArrigoCI.md>
 [docker]: <Everything-Docker.md>
 [pks-image]: <https://assets.brandfolder.com/pj2oej-6w2u14-1lospv/view@2x.png?v=1543692135>
 [pks-docs]: <https://docs.pivotal.io/pks/1-5/index.html>
