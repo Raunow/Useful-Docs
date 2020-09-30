@@ -8,7 +8,7 @@ This document is a high level overview of the environment and the technologies u
 Setting up and use of the tools is documented in detail in [ArrigoCI.md][arrigo-ci]
 All Titles link to more docs on the subject. 
 
-- [Pivotal Container Service][#PKS]
+- [Pivotal Container Service](#PKS)
 - [Kubernetes](#Kubernetes)
   - [Harbor](#Harbor)
   - [Docker](#Docker)
