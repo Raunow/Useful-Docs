@@ -80,7 +80,7 @@ Read [Everything Docker.md][docker] if necessary.
 
 
 
-## [TeamCity
+## [TeamCity][teamcity]
 
 It's the CI of choice in RSS.
 The build configuration for ArrigoAPI was made with "Fail fast and fail often" in mind. 
@@ -109,7 +109,7 @@ The build consists of 9 steps:
 9. Tell Kubernetes to update the deployment with the new image.
 
 
-
+[teamcity]: <https://www.jetbrains.com/teamcity/>
 [k8s-docs]: <https://docs.pivotal.io/pks/1-5/create-cluster.html>
 [k8s-img]: <K8s-Capture.png>
 [arrigo-ci]: <ArrigoCI.md>
